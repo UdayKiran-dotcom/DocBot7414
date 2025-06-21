@@ -40,6 +40,11 @@ ai_doctor_chatbot/
 │   ├── report_parser.py       # Parses lab reports, analyzes values, and generates AI explanations
 │   └── symptom_checker.py     # Extracts symptoms and suggests conditions
 └── README.md                  # This file!
+├── tests/                       # Python package for core application logic
+│   ├── __init__.py            # Makes 'tests' a Python package (empty file)
+│   ├── test_auth.py                
+│   ├── test_report_parser.py            
+│   ├── report_parser.py   
 ```
 
 ## 🚀 Setup and Installation
